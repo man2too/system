@@ -1,6 +1,5 @@
 #! /bin/sh
 
-$HOME/.config/polybar/launch.sh
 
 
 pgrep -x sxhkd > /dev/null || sxhkd &
@@ -22,7 +21,9 @@ bspc rule -a Screenkey manage=off
 
 
 #autostart
+#$HOME/.config/polybar/launch.sh | is wrong?
 
+polybar main &
 feh --randomize --bg-fill ~/pictures/wallpaper&& 
 picom &
 setxkbmap -option caps:ctrl_modifier
