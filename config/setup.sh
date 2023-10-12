@@ -20,13 +20,15 @@ mkdir -p ~/.config/kitty
 mkdir -p ~/.config/picom
 mkdir -p ~/.config/polybar
 mkdir -p ~/.config/rofi
-
+mkdir -p ~/.config/.emacs.d
 
 #moving config files
+mv ~/system/config/main.png ~/pictures/wallpaper
 mv ~/system/config/kitty.conf ~/.config/kitty/
 mv ~/system/config/init.el ~/.emacs.d/
 mv ~/system/config/picom.conf ~/.config/
+mv ~/system/config/launch.sh ~/.config/polybar/
 mv ~/system/config/config.ini ~/.config/polybar/
 mv ~/system/config/config.rasi ~/.config/rofi/
-mv ~/system/config/bspwmrc ~/.config/bspwm/
-mv ~/system/config/sxhkdrc ~/.config/sxhkd/
+sudo mv ~/system/config/bspwmrc ~/.config/bspwm/
+sudo mv ~/system/config/sxhkdrc ~/.config/sxhkd/

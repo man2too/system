@@ -1,5 +1,8 @@
 #! /bin/sh
 
+$HOME/.config/polybar/launch.sh
+
+
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
@@ -19,6 +22,7 @@ bspc rule -a Screenkey manage=off
 
 
 #autostart
+
 feh --randomize --bg-fill ~/pictures/wallpaper&& 
 picom &
 setxkbmap -option caps:ctrl_modifier
