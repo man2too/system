@@ -32,3 +32,5 @@ mv ~/system/config/config.ini ~/.config/polybar/
 mv ~/system/config/config.rasi ~/.config/rofi/
 sudo mv ~/system/config/bspwmrc ~/.config/bspwm/
 sudo mv ~/system/config/sxhkdrc ~/.config/sxhkd/
+
+
