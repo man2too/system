@@ -24,6 +24,6 @@ bspc rule -a Screenkey manage=off
 #$HOME/.config/polybar/launch.sh | is wrong?
 
 polybar main &
-feh --randomize --bg-fill ~/pictures/wallpaper&& 
-picom &
-setxkbmap -option caps:ctrl_modifier
+feh --randomize --bg-fill ~/pictures/wallpaper/ & 
+picom -b & 
+setxkbmap -option caps:ctrl_modifier & 

@@ -1,7 +1,7 @@
 -------------------------------
 Arch Linux (system\d) | Artix Linux(openrc)
-x11 | wayland
-bspwm | awsomewm [x11]
+x11 | wayland {x11}
+bspwm | awsomewm [x11] {bspwm}
 sway | hyprland [wayland]
 Pipewire audio
 install nvidia package first
