@@ -1,7 +1,7 @@
 echo "installing packages..."
 #installing needed packages
 sudo pacman -Syu firefox neofetch kitty polybar rofi pulsemixer bashtop emacs discord steam unzip unrar man feh
-nvidia-utils nvidia-settings linux-headers linux-zen-headers usbimager gparted libreoffice mypaint picom wine-staging ffmpeg gcc clang cmake mesa mesa-utils nemo
+nvidia-utils nvidia-settings linux-headers linux-zen-headers usbimager gparted libreoffice mypaint picom wine-staging ffmpeg gcc clang cmake mesa mesa-utils
 
 #echo "installing aliases..."
 #rcreating aliases

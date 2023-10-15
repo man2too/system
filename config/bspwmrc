@@ -25,5 +25,5 @@ bspc rule -a Screenkey manage=off
 
 polybar main &
 feh --randomize --bg-fill ~/pictures/wallpaper/ & 
-picom -b & 
+#picom -b & 
 setxkbmap -option caps:ctrl_modifier & 
